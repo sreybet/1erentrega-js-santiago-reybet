@@ -51,7 +51,7 @@ function turno(){
 function reservarTurno(precio, descuento){ 
     alert("Bienvenido 👋 a continuación turnos de padel: ")
     let dias = parseInt(prompt("¿Cuantos días vas a venir a jugar en la semana?"))
-    if(dias <= 7 & dias >= 3){
+    if(dias <= 7 && dias >= 3){
         let promocion = (precio * dias) / descuento 
         alert("Si venis " + dias + " dias tu total a pagar es: " + promocion.toFixed(2) + " pesos")
         turno()
